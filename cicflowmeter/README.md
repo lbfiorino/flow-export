@@ -21,6 +21,15 @@ gradle build
 # The .tar and .zip files will be in the pathtoproject/CICFlowMeter/build/distributions
 ```
 
+```
+### For Linux: (x64)
+Install libpcap-dev using:
+1. $ sudo apt-get install libpcap-dev
+2. Go to the jnetpcap folder inside CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
+3. Copy libjnetpcap.so and libjnetpcap-pcap100.so in /usr/lib/ (as sudo).
+```
+
+
 # Using CICFlowMeter
 
 Unpack zip package in CICFlowMeter/build/distributions.
