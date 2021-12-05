@@ -25,5 +25,5 @@ go install
 # Basic usage
 
 ```bash
-go-flows run -perpacket features pcap2pkts.json export csv pcap.csv source libpcap teste.pcap
+go-flows run features examples/complex_simple.json export ipfix out.ipfix source libpcap input.pcap
 ```
