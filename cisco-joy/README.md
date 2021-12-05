@@ -25,7 +25,7 @@ make
 ## Using Joy
 The command line syntax to invoke joy is:
 ```bash
-# joy [options] [file1 [file2 ... ]]
+# ./joy [options] [file1 [file2 ... ]]
 
 joy bidir=1 browse.pcap | gunzip
 {"version":"1.74","interface":"none","promisc":0,"output":"none", ... }
@@ -34,3 +34,8 @@ joy bidir=1 browse.pcap | gunzip
 {"sa":"10.0.2.15","da":"74.125.228.104","pr":6,"sp":47443,"dp":443, ... }
 ...
 ```
+Estract features:
+```bash
+
+```
+
