@@ -9,7 +9,7 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 
 # Install packages
-pyton2 -m pip install numpy
+python2 -m pip install numpy
 # or
 pip2 install numpy
 ```
