@@ -25,6 +25,7 @@ make
 ## Using Joy
 The command line syntax to invoke joy is:
 ```bash
+# cd joypath/bin
 # ./joy [options] [file1 [file2 ... ]]
 
 joy bidir=1 browse.pcap | gunzip
