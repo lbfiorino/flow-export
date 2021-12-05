@@ -35,8 +35,23 @@ joy bidir=1 browse.pcap | gunzip
 {"sa":"10.0.2.15","da":"74.125.228.104","pr":6,"sp":47443,"dp":443, ... }
 ...
 ```
-Estract features:
-```bash
 
+# Example:
+```bash
+cd joypath/bin
+
+# Process PCAP into flow JSON
+./joy bidir=1 output="teste.flows.gz" teste.pcap
+
+# Read flows
+zless teste.flows.gz
+
+# Select features
+../sleuth teste.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr"
+# Save into file
+../sleuth teste.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr" > teste.features.json
+
+# Convert JSON to CSV
+./json2csv -p -k time_start,time_end,pr,sa,sp,da,dp -i teste.features.json -o teste.features.csv
 ```
 
