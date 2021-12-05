@@ -4,7 +4,7 @@
 # Install python2
 sudo apt install python2 python2-dev
 
-# Install PIP2
+# Install pip2
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 
