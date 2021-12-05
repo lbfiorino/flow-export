@@ -5,6 +5,10 @@ https://developer.cisco.com/codeexchange/github/repo/cisco/joy/
 
 :warning: `sleuth` requires python2.
 
+By default, joy captures unidirectional flows, but in many cases, bidirectional flows are more interesting;
+the bidir=1 option (Section 2.3.4) causes that program to stitch together any unidirectional flows that
+are part of the same session (Source: using-joy-05.pdf section 1.2.1).
+
 ## Install on Ubuntu 20.04
 https://github.com/cisco/joy/wiki/Building  
 ```bash
