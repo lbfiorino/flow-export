@@ -3,7 +3,7 @@ A package for capturing and analyzing network flow data and intraflow data, for 
 https://github.com/cisco/joy  
 https://developer.cisco.com/codeexchange/github/repo/cisco/joy/
 
-:warning: `sleth` requires python2.
+:warning: `sleuth` requires python2.
 
 ## Install on Ubuntu 20.04
 https://github.com/cisco/joy/wiki/Building  
