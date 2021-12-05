@@ -1,6 +1,9 @@
 # go-flows
 This is a highy customizable general-purpose flow exporter.
 
+https://github.com/CN-TU/go-flows  
+https://pkg.go.dev/github.com/CN-TU/go-flows
+
 # Install on Ubuntu 20.04
 
 Install Go.
@@ -24,6 +27,7 @@ go install
 ```
 # Basic usage
 
+Extract features defined in examples/complex_simple.json.
 ```bash
-go-flows run features examples/complex_simple.json export ipfix out.ipfix source libpcap input.pcap
+go-flows run features examples/complex_simple.json export csv teste.csv source libpcap teste.pcap
 ```
