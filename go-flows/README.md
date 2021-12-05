@@ -31,3 +31,7 @@ Extract features defined in examples/complex_simple.json.
 ```bash
 go-flows run features examples/complex_simple.json export csv teste.csv source libpcap teste.pcap
 ```
+List available features:
+```bash
+go-flows features
+```
