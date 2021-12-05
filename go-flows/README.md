@@ -22,3 +22,8 @@ go clean
 go install
 # go install put the bin at userhomedir/go/bin/go-flows
 ```
+# Basic usage
+
+```bash
+go-flows run -perpacket features pcap2pkts.json export csv pcap.csv source libpcap teste.pcap
+```
