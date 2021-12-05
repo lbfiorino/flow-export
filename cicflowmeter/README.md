@@ -1,5 +1,7 @@
 # CICFlowMeter
 
+:warning: Needs coding to get timestamp in microseconds.
+
 # Install on Ubuntu 20.04
 
 ```bash
