@@ -41,17 +41,17 @@ joy bidir=1 browse.pcap | gunzip
 cd joypath/bin
 
 # Process PCAP into flow JSON
-./joy bidir=1 output="teste.flows.gz" test.pcap
+./joy bidir=1 output="capture.flows.gz" capture.pcap
 
 # Read flows
-zless test.flows.gz
+zless capture.flows.gz
 
 # Select features
-../sleuth test.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr"
+../sleuth capture.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr"
 # Save into file
-../sleuth test.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr" > test.features.json
+../sleuth capture.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr" > capture.features.json
 
 # Convert JSON to CSV
-./json2csv -p -k time_start,time_end,pr,sa,sp,da,dp -i test.features.json -o test.features.csv
+./json2csv -p -k time_start,time_end,pr,sa,sp,da,dp -i capture.features.json -o capture.features.csv
 ```
 
