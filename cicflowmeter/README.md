@@ -24,8 +24,9 @@ gradle build
 ```
 
 ## Fix for generate csv in linux 
-:warging: It was not necessary.  
 https://github.com/ahlashkari/CICFlowMeter/pull/85  
+:warning: It was not necessary. 
+
 ```
 ### For Linux: (x64)
 Install libpcap-dev using:
