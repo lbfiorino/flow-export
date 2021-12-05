@@ -30,7 +30,7 @@ go install
 Extract features defined in examples/complex_simple.json.
 ```bash
 cd go-flows_path
-go-flows run features examples/complex_simple.json export csv teste.csv source libpcap teste.pcap
+go-flows run features examples/complex_simple.json export csv <csv-file> source libpcap <pcap-file>
 ```
 List available features:
 ```bash
