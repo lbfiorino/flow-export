@@ -8,12 +8,19 @@
 - JDK 8
 - Maven
 - Gradle
- 
-In `build.gradle` : `sourceCompatibility = 1.8`
 
 ```bash
 # Install requirements
 apt install openjdk-8-jdk maven gradle
+```
+
+
+In `build.gradle` : `sourceCompatibility = 1.8`
+```java
+...
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+...
 ```
 
 ## Build CICFlowMeter
