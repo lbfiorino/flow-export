@@ -14,8 +14,7 @@
 apt install openjdk-8-jdk maven gradle
 ```
 
-
-In `build.gradle` : `sourceCompatibility = 1.8`
+Java 8 compatibility in `build.gradle`
 ```java
 ...
 sourceCompatibility = 1.8
