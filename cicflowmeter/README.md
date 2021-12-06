@@ -1,5 +1,5 @@
 # CICFlowMeter
-
+CICFlowMeter is a network traffic flow generator and analyser.  
 https://www.unb.ca/cic/research/applications.html  
 https://github.com/ahlashkari/CICFlowMeter  
 
