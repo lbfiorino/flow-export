@@ -13,7 +13,7 @@ In `build.gradle` : `sourceCompatibility = 1.8`
 
 ```bash
 # Install requirements
-apt install maven gradle openjdk-8-jdk
+apt install openjdk-8-jdk maven gradle
 ```
 
 ## Build CICFlowMeter
