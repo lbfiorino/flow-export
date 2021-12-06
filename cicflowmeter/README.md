@@ -48,7 +48,7 @@ Install libpcap-dev using:
 
 # Using CICFlowMeter
 
-Unpack zip package in CICFlowMeter/build/distributions.
+Unpack tar/zip package in CICFlowMeter/build/distributions.
 ```bash
 cd CICFlowMeter-4.0/bin
 # cfm : command line
