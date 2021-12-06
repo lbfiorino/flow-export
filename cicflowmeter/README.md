@@ -3,7 +3,7 @@
 https://www.unb.ca/cic/research/applications.html  
 https://github.com/ahlashkari/CICFlowMeter  
 
-:warning: Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.git.
+:warning: Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.
 
 # Install on Ubuntu 20.04
 
