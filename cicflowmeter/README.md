@@ -4,16 +4,18 @@
 
 # Install on Ubuntu 20.04
 
+## Requirements
 - JDK 8
-From build.gradle:
-```bash
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-```
+- Maven
+- Gradle
+ 
+In `build.gradle` : `sourceCompatibility = 1.8`
 
 ```bash
 apt install maven gradle openjdk-8-jdk
+```
 
+```bash
 git clone https://github.com/ahlashkari/CICFlowMeter.git
 
 //linux :at the pathtoproject/jnetpcap/linux/jnetpcap-1.4.r1425
