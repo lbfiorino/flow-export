@@ -5,21 +5,13 @@
 # Install on Ubuntu 20.04
 
 ## Requirements
-- JDK 8
+- JDK 8 (`sourceCompatibility = 1.8` present in `build.gradle`)
 - Maven
 - Gradle
 
 ```bash
 # Install requirements
 apt install openjdk-8-jdk maven gradle
-```
-
-Java 8 compatibility present in `build.gradle`:
-```java
-...
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-...
 ```
 
 ## Build CICFlowMeter
