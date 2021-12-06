@@ -5,7 +5,7 @@
 # Install on Ubuntu 20.04
 
 ## Requirements
-- JDK 8 (`sourceCompatibility = 1.8` present in `build.gradle`)
+- JDK 8 (`sourceCompatibility = 1.8` in `build.gradle`)
 - Maven
 - Gradle
 
