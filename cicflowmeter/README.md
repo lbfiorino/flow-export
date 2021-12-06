@@ -4,6 +4,13 @@
 
 # Install on Ubuntu 20.04
 
+- JDK 8
+From build.gradle:
+```bash
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+```
+
 ```bash
 apt install maven gradle openjdk-8-jdk
 
