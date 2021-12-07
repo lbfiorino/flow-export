@@ -31,8 +31,9 @@ apt install gradle
 
 # Linux
 # at root directory of this repository
-cd CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
 mvn install:install-file -Dfile=./jnetpcap/linux/jnetpcap-1.4.r1425/jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+# also for root
+sudo mvn install:install-file -Dfile=./jnetpcap/linux/jnetpcap-1.4.r1425/jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
 
 # Windows (use quotation marks)
 # at root directory of this repository
