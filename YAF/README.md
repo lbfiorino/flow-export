@@ -57,6 +57,11 @@ yaf --in test.pcap --out test.ipfix
 
 # View features
 yafscii --in test.ipfix  --tabular
+
+# Convert to CSV
+yafscii --in test.ipfix --out - --tabular --print-header > flow_features.tabular
+# Remove blank spaeces and replace '|' to ','
+sed -e 's/ //g' -e 's/|/,/g' flow_features.tabular  > flow_features.csv
 ```
 
 
