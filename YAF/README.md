@@ -32,8 +32,9 @@ ln -s /usr/local/lib/libairframe-2.12.2.so.4  /lib/x86_64-linux-gnu/libairframe-
 ```
 
 ### Build Silk
-Download: https://tools.netsa.cert.org/silk/download.html
+https://tools.netsa.cert.org/silk/
 ```bash
+wget https://tools.netsa.cert.org/releases/silk-3.19.1.tar.gz
 tar -xvzf silk-3.19.1.tar.gz
 cd silk-3.19.1
 ./configure --with-libfixbuf=/usr/local/lib/pkgconfig --enable-ipv6
