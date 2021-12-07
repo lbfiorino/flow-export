@@ -51,6 +51,13 @@ gradlew distZip
 gradlew distTar
 
 # The .tar and .zip files will be in the pathtoproject/CICFlowMeter/build/distributions
+
+# For just Run, type:
+# // linux:
+sudo bash
+./gradlew execute
+# //windows:
+$ gradlew execute
 ```
 
 #### From console 
