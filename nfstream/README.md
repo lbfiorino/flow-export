@@ -13,6 +13,9 @@ pip install nfstream
 ```
 
 # Using NFStream
-See demo_notebook.ipynb.
+See files:
+  - demo_notebook.ipynb
+  - csv_generator.py
+  - flow_printer.py 
 
 Live Notebook: https://mybinder.org/v2/gh/aouinizied/nfstream-tutorials/master?filepath=demo_notebook.ipynb  
