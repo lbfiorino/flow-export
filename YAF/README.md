@@ -41,5 +41,10 @@ cd silk-3.19.1
 ./configure --with-libfixbuf=/usr/local/lib/pkgconfig --enable-ipv6
 make
 make install
+
+# Create symbolic links
+ln -s /usr/local/lib/libflowsource.so.19 /lib/x86_64-linux-gnu/libflowsource.so.19
+ln -s /usr/local/lib/libsilk-thrd.so.5 /lib/x86_64-linux-gnu/libsilk-thrd.so.5
+ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 ```
 
