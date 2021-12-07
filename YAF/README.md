@@ -48,3 +48,9 @@ ln -s /usr/local/lib/libsilk-thrd.so.5 /lib/x86_64-linux-gnu/libsilk-thrd.so.5
 ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 ```
 
+# Using YAF
+Single PCAP Example.  
+First, we could create SiLK flow data from this PCAP using rwipfix2silk: 
+```bash
+yaf --in ./teste.pcap --out - --applabel --max-payload=1500 --silk | rwipfix2silk --silk-output=./teste_yaf2flow.rw --interface-values=vlan
+```
