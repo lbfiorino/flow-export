@@ -41,7 +41,7 @@ mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar"
 #### From IntelliJ IDEA
 1. Open folder project in IntelliJ IDEA;
 2. Choose 'Gradle Project';
-3. Open terminal in the IDE (Alt+F12)
+3. Open terminal in the IDE (Alt+F12);
 4. In project root directory type: 
 ```bash
 # Build Zip and Tar packages
@@ -54,7 +54,7 @@ gradlew distTar
 
 # The .tar and .zip files will be in the pathtoproject/CICFlowMeter/build/distributions
 
-# For just Run, type:
+# To just run the Application, type:
 # // linux:
 ./gradlew execute
 # //windows:
