@@ -4,7 +4,7 @@ https://www.unb.ca/cic/research/applications.html
 https://github.com/ahlashkari/CICFlowMeter  
 
 :warning: Notes:
-> Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.
+> Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.  
 > For linux, `sudo` is a prerequisite.
 
 
