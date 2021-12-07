@@ -25,11 +25,12 @@ apt install openjdk-8-jdk maven gradle
 //windows: at the pathtoproject/jnetpcap/win/jnetpcap-1.4.r1425
 
 # Linux
+# at root directory of this repository
 cd CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
-mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+mvn install:install-file -Dfile=./jnetpcap/linux/jnetpcap-1.4.r1425/jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
 
-# Windows
-//windows: at root directory of this repository
+# Windows (use quotation marks in paths)
+# at root directory of this repository
 mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar" -DgroupId="org.jnetpcap" -DartifactId=jnetpcap -Dversion="1.4.1" -Dpackaging=jar
 ```
 
