@@ -15,7 +15,7 @@ https://github.com/ahlashkari/CICFlowMeter
 ```bash
 apt install openjdk-8-jdk maven
 
-# For build directly from console
+# To build directly from console
 apt install gradle
 ```
 
