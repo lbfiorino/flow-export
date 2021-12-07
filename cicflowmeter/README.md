@@ -3,7 +3,10 @@ CICFlowMeter is a network traffic flow generator and analyser.
 https://www.unb.ca/cic/research/applications.html  
 https://github.com/ahlashkari/CICFlowMeter  
 
-:warning: Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.
+:warning: Notes:
+> Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.
+> For linux, `sudo` is a prerequisite.
+
 
 # Install on Ubuntu 20.04
 
