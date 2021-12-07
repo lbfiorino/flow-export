@@ -4,7 +4,6 @@ Source: https://tools.netsa.cert.org/yaf/index.html
 
 # Install on Ubuntu 20.04
 
-
 ```bash
 # Requirements
 apt install build-essential libglib2.0-dev libfixbuf-dev libpcre3 libpcre3-dev libpcap-dev libpcap0.8 libndpi2.6 libndpi-dev libfixbuf9 libfixbuf-dev
@@ -30,5 +29,15 @@ make install
 # Create symbolic links
 ln -s /usr/local/lib/libyaf-2.12.2.so.4 /lib/x86_64-linux-gnu/libyaf-2.12.2.so.4
 ln -s /usr/local/lib/libairframe-2.12.2.so.4  /lib/x86_64-linux-gnu/libairframe-2.12.2.so.4
+```
+
+### Build Silk
+Download: https://tools.netsa.cert.org/silk/download.html
+```bash
+tar -xvzf silk-3.19.1.tar.gz
+cd silk-3.19.1
+./configure --with-libfixbuf=/usr/local/lib/pkgconfig --enable-ipv6
+make
+make install
 ```
 
