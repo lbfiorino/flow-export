@@ -56,7 +56,7 @@ gradlew distTar
 
 # To just run the Application, type:
 # // linux:
-./gradlew execute
+sudo ./gradlew execute
 # //windows:
 $ gradlew execute
 ```
