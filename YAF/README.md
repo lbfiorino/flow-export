@@ -56,6 +56,7 @@ ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 yaf --in test.pcap --out test.ipfix
 
 # View features
+# https://tools.netsa.cert.org/yaf/yafscii.html
 yafscii --in test.ipfix  --tabular
 
 # Convert to CSV
