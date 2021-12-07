@@ -50,7 +50,7 @@ ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 
 # Using YAF with PCAP
 
-## Ipfix file
+## IPFIX file
 ```bash
 # Create ipfix file from pcap
 yaf --in test.pcap --out test.ipfix
