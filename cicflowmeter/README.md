@@ -5,7 +5,7 @@ https://github.com/ahlashkari/CICFlowMeter
 
 :warning: Notes:
 > Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.  
-> For Linux, `sudo` is a prerequisite.
+> On Linux, `sudo` is a prerequisite for online capture.
 
 
 # Install on Ubuntu 20.04
