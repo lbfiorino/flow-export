@@ -35,6 +35,17 @@ mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar"
 ```
 
 ### Build
+
+#### From IntelliJ IDEA
+1. Open folder project in IntelliJ IDEA;
+2. Choose 'Gradle Project';
+3. Open terminal in the IDE (Alt+F12)
+4. In project root directory type: 
+   linux: ./gradlew execute
+   windows: gradlew execute
+
+
+#### From console 
 ```bash
 git clone https://github.com/ahlashkari/CICFlowMeter.git
 
