@@ -66,6 +66,7 @@ First, we could create SiLK flow data from this PCAP using rwipfix2silk:
 ```bash
 yaf --in ./test.pcap --out - --applabel --max-payload=1500 --silk | rwipfix2silk --silk-output=./test_yaf2flow.rw --interface-values=vlan
 
-# rw tools
 rwfileinfo test_yaf2flow.rw
+
+# use rwstat and rwfilter to analyse test_yaf2flow.rw
 ```
