@@ -53,7 +53,8 @@ ra -r packet.argus -s +1dur
 #            Specify a delimiter character for output columns (default is ' ').
 ra -c , -r packet.argus -u -n -s stime ltime dur flgs proto sport dport saddr daddr dco spkts dpkts pkts sbytes dbytes bytes > flows-dataset.csv
 ```
-> All features in ra.1.pdf
+:warning: Note:
+> All features in ra.1.pdf (Param -s).
 
 ## Example
 ![Using-Argus](argus.packet.processing.png)
