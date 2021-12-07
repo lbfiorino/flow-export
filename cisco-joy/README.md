@@ -3,7 +3,8 @@ A package for capturing and analyzing network flow data and intraflow data, for 
 https://github.com/cisco/joy  
 https://developer.cisco.com/codeexchange/github/repo/cisco/joy/
 
-:warning: `sleuth` requires python2.
+:warning: Nota:
+>`sleuth` requires Python2.
 
 By default, joy captures unidirectional flows, but in many cases, bidirectional flows are more interesting;
 the `bidir=1` option (Section 2.3.4) causes that program to stitch together any unidirectional flows that
