@@ -49,6 +49,8 @@ mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar"
 # //window
 gradlew distZip
 gradlew distTar
+
+# The .tar and .zip files will be in the pathtoproject/CICFlowMeter/build/distributions
 ```
 
 #### From console 
