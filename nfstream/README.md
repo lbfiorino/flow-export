@@ -8,6 +8,7 @@ Features: https://www.nfstream.org/docs/api#nflow
 # Install
 
 ```bash
+# https://pypi.org/project/nfstream/
 pip install nfstream
 ```
 
