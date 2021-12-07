@@ -13,6 +13,7 @@ pip install nfstream
 ```
 
 # Using NFStream
+https://pypi.org/project/nfstream/#how-to-use-it  
 See files:
   - demo_notebook.ipynb
   - csv_generator.py
