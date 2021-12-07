@@ -19,13 +19,23 @@ apt install openjdk-8-jdk maven gradle
 
 ## Build CICFlowMeter
 
+### Install jnetpcap
 ```bash
-git clone https://github.com/ahlashkari/CICFlowMeter.git
-
 //linux :at the pathtoproject/jnetpcap/linux/jnetpcap-1.4.r1425
 //windows: at the pathtoproject/jnetpcap/win/jnetpcap-1.4.r1425
+
+# Linux
 cd CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
 mvn install:install-file -Dfile=jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+
+# Windows
+//windows: at root directory of this repository
+mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar" -DgroupId="org.jnetpcap" -DartifactId=jnetpcap -Dversion="1.4.1" -Dpackaging=jar
+
+
+### Build
+```bash
+git clone https://github.com/ahlashkari/CICFlowMeter.git
 
 # Make package
 # cd to CICFlowMeter
