@@ -5,7 +5,7 @@ https://github.com/ahlashkari/CICFlowMeter
 
 :warning: Notes:
 > Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.  
-> On Linux, `sudo` is a prerequisite for online capture.
+> On Linux, `sudo` is a prerequisite for realtime capture.
 
 
 # Install on Ubuntu 20.04
@@ -32,7 +32,7 @@ apt install gradle
 # Linux
 # at root directory of this repository
 cd CICFlowMeter/jnetpcap/linux/jnetpcap-1.4.r1425
-sudo mvn install:install-file -Dfile=./jnetpcap/linux/jnetpcap-1.4.r1425/jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
+mvn install:install-file -Dfile=./jnetpcap/linux/jnetpcap-1.4.r1425/jnetpcap.jar -DgroupId=org.jnetpcap -DartifactId=jnetpcap -Dversion=1.4.1 -Dpackaging=jar
 
 # Windows (use quotation marks)
 # at root directory of this repository
