@@ -54,7 +54,7 @@ ra -r packet.argus -s +1dur
 ra -c , -r packet.argus -u -n -s stime ltime dur flgs proto sport dport saddr daddr dco spkts dpkts pkts sbytes dbytes bytes > flows-dataset.csv
 ```
 :warning: Note:
-> All features in ra.1.pdf (Param -s).
+> All fields in ra man page (ra.1.pdf).
 
 ## Example
 ![Using-Argus](argus.packet.processing.png)
