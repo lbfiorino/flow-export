@@ -2,7 +2,7 @@
 
 Repositório com ferramentas para exportar fluxos de rede em arquivos pcap.
 
-## Timestamps support:
+## Timestamps support
 - _YAF_ : Milliseconds
 - _Argus_ : Microseconds
 - _CICFlowMeter_ : Microseconds. Needs coding to dump in microseconds.
