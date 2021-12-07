@@ -49,10 +49,23 @@ ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 ```
 
 # Using YAF with PCAP
-https://tools.netsa.cert.org/yaf/libyaf/yaf_pcap.html  
 
-Single PCAP Example.  
+## Ipfix file
+```bash
+# Create ipfix file from pcap
+yaf --in test.pcap --out test.ipfix
+
+# View features
+yafscii --in test.ipfix  --tabular
+```
+
+
+## Silk flow  
+https://tools.netsa.cert.org/yaf/libyaf/yaf_pcap.html  
 First, we could create SiLK flow data from this PCAP using rwipfix2silk: 
 ```bash
-yaf --in ./teste.pcap --out - --applabel --max-payload=1500 --silk | rwipfix2silk --silk-output=./teste_yaf2flow.rw --interface-values=vlan
+yaf --in ./test.pcap --out - --applabel --max-payload=1500 --silk | rwipfix2silk --silk-output=./test_yaf2flow.rw --interface-values=vlan
+
+# rw tools
+rwfileinfo test_yaf2flow.rw
 ```
