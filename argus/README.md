@@ -28,12 +28,14 @@ make
 make install
 ```
 # Using Argus
+
  ```bash
 # Convert PCAP to argus
 argus -r packet.pcap -w packet.argus
 
 # Read argus file
 # https://openargus.org/oldsite/ra.examples.shtml
+# All features in ra.1.pdf
 # Param -s : Specify  the  fields  to print.
 #            +1dur put duration field at #1 position. Starts with 0.  
 ra -r packet.argus -s +1dur
