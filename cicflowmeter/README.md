@@ -21,7 +21,7 @@ apt install openjdk-8-jdk maven gradle
 
 ### Install jnetpcap
 ```bash
-//linux :at the pathtoproject/jnetpcap/linux/jnetpcap-1.4.r1425
+//linux: at the pathtoproject/jnetpcap/linux/jnetpcap-1.4.r1425
 //windows: at the pathtoproject/jnetpcap/win/jnetpcap-1.4.r1425
 
 # Linux
