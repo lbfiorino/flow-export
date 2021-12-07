@@ -60,8 +60,9 @@ yaf --in test.pcap --out test.ipfix
 yafscii --in test.ipfix  --tabular
 
 # Convert to CSV
+## Save tabular format
 yafscii --in test.ipfix --out - --tabular --print-header > test_flow_features.tabular
-# Remove blank spaces and replace '|' to ','
+## Remove blank spaces and replace '|' to ','
 sed -e 's/ //g' -e 's/|/,/g' test_flow_features.tabular  > test_flow_features.csv
 ```
 
