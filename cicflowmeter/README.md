@@ -13,8 +13,10 @@ https://github.com/ahlashkari/CICFlowMeter
 - Gradle
 
 ```bash
-# Install requirements
-apt install openjdk-8-jdk maven gradle
+apt install openjdk-8-jdk maven
+
+# For build directly from console
+apt install gradle
 ```
 
 ## Build CICFlowMeter
@@ -59,7 +61,7 @@ gradlew distTar
 $ gradlew execute
 ```
 
-#### From console 
+#### From console (the process requires 'apt install gradle')
 ```bash
 git clone https://github.com/ahlashkari/CICFlowMeter.git
 
