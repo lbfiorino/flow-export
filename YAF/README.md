@@ -48,7 +48,9 @@ ln -s /usr/local/lib/libsilk-thrd.so.5 /lib/x86_64-linux-gnu/libsilk-thrd.so.5
 ln -s /usr/local/lib/libsilk.so.25 /lib/x86_64-linux-gnu/libsilk.so.25
 ```
 
-# Using YAF
+# Using YAF with PCAP
+https://tools.netsa.cert.org/yaf/libyaf/yaf_pcap.html  
+
 Single PCAP Example.  
 First, we could create SiLK flow data from this PCAP using rwipfix2silk: 
 ```bash
