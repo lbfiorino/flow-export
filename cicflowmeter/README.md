@@ -41,9 +41,15 @@ mvn install:install-file -Dfile=".\jnetpcap\win\jnetpcap-1.4.r1425\jnetpcap.jar"
 2. Choose 'Gradle Project';
 3. Open terminal in the IDE (Alt+F12)
 4. In project root directory type: 
-   linux: ./gradlew execute
-   windows: gradlew execute
-
+```bash
+# Build Zip and Tar packages
+# //linux:
+./gradlew distZip
+./gradlew distTar
+# //window
+gradlew distZip
+gradlew distTar
+```
 
 #### From console 
 ```bash
