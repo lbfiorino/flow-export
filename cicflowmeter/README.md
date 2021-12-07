@@ -66,8 +66,7 @@ $ gradlew execute
 git clone https://github.com/ahlashkari/CICFlowMeter.git
 
 # Make package
-# cd to CICFlowMeter
-cd ../../../
+cd CICFlowMeter
 gradle clean
 gradle build
 
