@@ -12,5 +12,7 @@ Features: https://www.nfstream.org/docs/api#nflow
 pip install nfstream
 ```
 
-## Live Notebook
-https://mybinder.org/v2/gh/aouinizied/nfstream-tutorials/master?filepath=demo_notebook.ipynb  
+# Using NFStream
+See demo_notebook.ipynb.
+
+Live Notebook: https://mybinder.org/v2/gh/aouinizied/nfstream-tutorials/master?filepath=demo_notebook.ipynb  
