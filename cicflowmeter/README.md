@@ -98,7 +98,12 @@ Unpack tar/zip package in CICFlowMeter/build/distributions.
 ```bash
 cd CICFlowMeter-4.0/bin
 # cfm : command line
-# CICFlowMeter : graphical application
-/cfm file.pcap <outdir>
+# CICFlowMeter: graphical application
+
+# Graphical (realtime capture)
+./CICFlowMeter
+
+# Command line
+./cfm file.pcap <outdir>
 # output file is file.pcap_Flow.csv
 ```
