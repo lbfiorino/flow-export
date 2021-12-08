@@ -67,7 +67,7 @@ $ gradlew.bat execute
 ```
 
 #### From console
-This process requires 'apt install gradle'.
+This process requires `apt install gradle`.
 ```bash
 git clone https://github.com/ahlashkari/CICFlowMeter.git
 
