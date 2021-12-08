@@ -101,9 +101,11 @@ cd CICFlowMeter-4.0/bin
 # CICFlowMeter: graphical application
 
 # Graphical (realtime capture)
+# // windows : CICFlowMeter.bat
 ./CICFlowMeter
 
 # Command line
+# // windows : cfm.bat
 ./cfm file.pcap <outdir>
 # output file is file.pcap_Flow.csv
 ```
