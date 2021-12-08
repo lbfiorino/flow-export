@@ -63,7 +63,7 @@ gradlew distTar
 chmod +x gradlew
 sudo ./gradlew execute
 # //windows:
-$ gradlew execute
+$ gradlew.bat execute
 ```
 
 #### From console (the process requires 'apt install gradle')
