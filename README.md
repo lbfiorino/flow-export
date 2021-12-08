@@ -1,3 +1,9 @@
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
 # flow-export
 
 Repositório com ferramentas para exportar fluxos de rede em arquivos pcap.
