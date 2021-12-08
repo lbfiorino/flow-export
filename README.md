@@ -3,7 +3,7 @@
 Repositório com ferramentas para exportar fluxos de rede em arquivos pcap.
 
 ## Timestamps support
-- _**YAF**_ : Milliseconds (<span style="color: blue">_decimal separator_</span>).
+- _**YAF**_ : Milliseconds (_decimal separator_).
 - _**Argus**_ : Microseconds (_decimal separator_).
 - _**CICFlowMeter**_ : Microseconds (_no decimal separator_). Needs coding to dump in microseconds.
 - _**Cisco-Joy**_ : Microseconds (_decimal separator_).
