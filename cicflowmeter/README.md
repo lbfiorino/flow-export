@@ -6,7 +6,7 @@ https://github.com/ahlashkari/CICFlowMeter
 :warning: Notes:
 > - Needs coding to get timestamp in microseconds. See https://github.com/lbfiorino/CICFlowMeter.  
 > - On Linux, `sudo` is a prerequisite for realtime capture.  
-> - On Windows requires `WinPcap` (https://www.winpcap.org/install/default.htm) OR `Npcap` with "WinPcap API-compatible mode" option checked at installation.
+> - On Windows requires `WinPcap` (https://www.winpcap.org/install/default.htm) OR `Npcap` with _"WinPcap API-compatible mode"_ option checked at installation.
 
 # Install on Ubuntu 20.04
 
