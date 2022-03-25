@@ -53,7 +53,15 @@ zless capture.flows.gz
 ../sleuth capture.flows.gz --select "time_start,time_end,sa,sp,da,dp,pr" > capture.features.json
 
 # Convert JSON to CSV
-# https://github.com/jehiah/json2csv
+# Tool: https://github.com/jehiah/json2csv
+# usage: json2csv
+#    -k fields,and,nested.fields,to,output
+#    -i /path/to/input.json (optional; default is stdin)
+#    -o /path/to/output.csv (optional; default is stdout)
+#    --version
+#    -p print csv header row
+#    -h This help
+
 ./json2csv -p -k time_start,time_end,pr,sa,sp,da,dp -i capture.features.json -o capture.features.csv
 ```
 
