@@ -19,7 +19,7 @@ tar xvzf argus-clients-3.0.8.2.tar.gz
 cd argus-3.0.8.2
 ./configure
 make
-mane install
+make install
 
 cd ..
 cd argus-clients-3.0.8.2
