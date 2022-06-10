@@ -8,6 +8,7 @@ https://openargus.org/using-argus
 ```bash
 # Requirements
 apt install build-essential flex bison
+# For CentOS includes: yum install libtirpc-devel
 
 # Argus-3.0.8.2
 wget http://qosient.com/argus/src/argus-3.0.8.2.tar.gz
