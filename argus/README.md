@@ -8,13 +8,13 @@ https://openargus.org/using-argus
 ```bash
 # Requirements
 apt install build-essential flex bison
-# For CentOS 8 
-    dnf install epel-release
-    dnf install gcc make flex bison zlib-devel perl tar dnf-plugins-core
-    dnf config-manager --set-enabled PowerTools
-    dnf install -y libpcap-devel libtirpc-devel: yum install libtirpc-devel
-    
-    --> Then configure with: CFLAGS="-I/usr/include/tirpc"
+## For CentOS 8 
+#     dnf install epel-release
+#     dnf install gcc make flex bison zlib-devel perl tar dnf-plugins-core
+#     dnf config-manager --set-enabled PowerTools
+#     dnf install -y libpcap-devel libtirpc-devel: yum install libtirpc-devel
+#    
+#     --> Then configure with: CFLAGS="-I/usr/include/tirpc"
 
 # Argus-3.0.8.2
 wget http://qosient.com/argus/src/argus-3.0.8.2.tar.gz
